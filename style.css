@@ -81,3 +81,30 @@ nav{
 .hero-sec img{
     width: 500px;
 }
+
+/* about section */
+.about{
+    margin: 150px 240px;
+    text-align: center;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about-description{
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .title{
+    font-size: 20px;
+    font-weight: normal;
+}
+.about-info .info-title{
+     font-size: 20px;
+    font-weight: bold;
+}

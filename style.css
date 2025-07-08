@@ -10,11 +10,18 @@ body{
 .dark1{
     color:#1E1E1E;
 }
+.dark2{
+    color: #474747;
+}
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
     border-radius: 5px;
     border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
 }
 nav h1,span{
  font-size: 45px;
@@ -23,3 +30,20 @@ nav h1,span{
 nav span{
     color:#FD6E0A;
 }
+nav ul{
+display: flex;
+list-style: none;
+gap: 50px;
+align-items: center;
+}
+nav ul li{
+    font-size: 20px;
+    font-weight:500;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px; 
+}
+
+/* hero section */
